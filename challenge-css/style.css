@@ -1,0 +1,96 @@
+
+/* CHALLENGE 1 1*/
+
+/* Interation 1*/
+.squarey{
+width:100px;
+height: 100px;
+background-color: red;
+border: dashed black;
+padding: 5px;
+
+}
+div.squarex{
+  width: 200px;
+  height: 200px;
+  border:solid black;
+  box-sizing: content-box;
+  padding:5px;
+ 
+}
+
+/* Interation 2*/
+
+th {
+width: 300px;
+height: 150px;
+  border: solid black;
+}
+.th :nth-child(2n+1) {
+  background-color: darkseagreen;
+}
+
+/* Interation 3*/
+
+
+.section3{
+  border: solid black;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.section4{
+  border: solid black;
+width: 300px;
+}
+
+.section3 .a, .b{
+  background-color: rgb(67, 14, 116);
+  color: white;
+}
+
+.section4 .c,.d {
+  background-color: rgb(67, 14, 116);
+  color: white;
+}
+
+.a{
+  margin-right: 200px;
+  margin-left: 5px;
+  
+}
+
+.b{
+margin-right: 100px;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+.c{
+
+margin-left: 100px;
+margin-right: 5px;
+text-align: right;
+}
+
+.d{
+  margin-left: 5px;
+  margin-right: 200px;
+  text-align: right;  
+}
+/* Bonus 1 */
+
+.bonus1{
+  width: 300px;
+}
+.bonus1 >div{
+border: red 300px;
+} 
+.firstline{
+background-color: rgb(214, 47, 18);
+}
+.secondline {
+  background-color: black;
+}
+
+/* CHALLENGE 2*/
